@@ -14,21 +14,8 @@ namespace MTGCollection
 			InitializeComponent();
 
 
-			MainPage = new NavigationPage(new MainPage());
-            
-            Button button = new Button
-            {
-                Text = "Carddeta!",
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Center
-            };
-
-            button.Clicked += async (sender, args) =>
-            {
-                await Navigation.PushAsync(new CardDetailPage());
-            };
-
-            Content = button;
+			MainPage = new MainPage();
+           
         }
 
 		protected override void OnStart ()
