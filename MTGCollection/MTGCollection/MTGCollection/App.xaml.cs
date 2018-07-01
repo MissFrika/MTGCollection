@@ -15,7 +15,7 @@ namespace MTGCollection
 
 
 			MainPage = new MainPage();
-            
+           
         }
 
 		protected override void OnStart ()
